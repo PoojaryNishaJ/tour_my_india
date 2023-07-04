@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SFProDisplay-Semibold', sans-serif;
+    font-size: 15px;
+    color: #38404f;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* Media queries for tablet */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Media queries for mobile phone */
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+}

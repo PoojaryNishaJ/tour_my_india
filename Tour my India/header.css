@@ -1,0 +1,118 @@
+/* Default styles */
+.header__nav--left ul  li {
+    display: inline-block;
+}
+
+.header__nav {
+flex: auto;
+margin-left: 100px;
+}
+.header__logo {
+    position: absolute;
+    top: 0px;
+    width: 10%;
+}
+.header__nav--right {
+    margin-right: 30px;
+}
+.header__nav--right  ul  li {
+    display: inline-block;
+}
+.header__main {
+    display: block;
+    position: relative;
+    padding: 17px;
+    border-bottom: 1px solid #e7e7e7;
+}
+/**/
+a {
+    text-decoration: none;
+    margin-right: 30px;
+}
+a:hover {
+    color: orangered;
+}
+.header__container {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-icon {
+    margin-right: 5px; /* adjust the spacing between the image and text */
+}
+
+
+.sticky-box {
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 5px 5px rgba(105, 105, 105, .1);
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.sticky-box__img {
+    display: flex;
+}
+
+.sticky-box__enquire {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    display: flex;
+}
+
+.sticky-box__contact span {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: SFProDisplay-Bold;
+    background: #fff;
+    margin-right: 4px;
+    border: 1px solid #ff6612;
+    width: auto;
+    padding: 9px 15px;
+    border-radius: 50px;
+    color: #38404f;
+}
+
+.enquire a h3 {
+    text-transform: capitalize;
+    display: inline-block;
+    background: #ff6612;
+    width: auto;
+    padding: 9px 20px 11px 15px;
+    border-radius: 50px;
+    font: 15px/17px SFProDisplay-Bold;
+    text-align: center;
+    color: #fff;
+}
+
+.sticky-box__item--india {
+    margin-left: 600px;
+}
+
+/* Media queries for tablet */
+
+@media (max-width: 768px) {
+    .header__main {
+        display: none;
+    }
+}
+
+/* Media queries for mobile phone */
+
+@media (max-width: 480px) {
+    .header__main {
+        display: none;
+    }
+}

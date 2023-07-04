@@ -1,0 +1,223 @@
+/* Default styles */
+
+.trending-block {
+  display: flex;
+  margin-left: 106px;
+  padding: 20px;
+}
+
+.destination__main--heading {
+  display: flex;
+}
+
+.india-destination__heading {
+  margin: 20px 40px 10px 106px;
+  padding: 0px 10px 0px 15px;
+}
+
+.destination__main--heading h2 {
+  font-size: 20px;
+}
+
+.india-destination__section--holiday {
+  margin-right: 20px;
+}
+
+.view-tour {
+  margin-left: 750px;
+}
+
+.india-destination__section--details p {
+  font-size: 13px;
+}
+
+figure {
+  position: relative;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  transition: filter 0.3s ease;
+}
+
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+}
+
+.view-package {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+figure:hover img {
+  filter: brightness(50%);
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
+
+.india-destination__section--places figure a span {
+  font-family: 'SFProDisplay-Medium';
+  font-size: 12px;
+  line-height: 17px;
+  border-radius: 60px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 18px;
+}
+
+.india-destination__section--places figure a span:hover {
+  font-family: 'SFProDisplay-Medium';
+  font-size: 12px;
+  line-height: 17px;
+  border-radius: 60px;
+  color: #fff;
+  border: 1px solid orangered;
+  background-color: orangered;
+  padding: 5px 18px;
+}
+.view-tour a {
+  border: 1px solid #c4c4c4;
+    border-radius: 60px;
+    padding: 8px 23px;
+    color: #ff6612;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    font-family: 'SFProDisplay-Medium';
+}
+.view-tour a:hover {
+    border: 1px solid #ff6612;
+    border-radius: 60px;
+    padding: 8px 23px;
+    color: white;
+    font-size: 14px;
+    background-color: #ff6612;
+    line-height: 17px;
+    text-transform: capitalize;
+    font-family: 'SFProDisplay-Medium';
+}
+/* Media queries */
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+
+
+  .india-destination__heading {
+    margin: 20px 40px 10px 20px;
+  }
+
+  .view-tour {
+    margin-left: 20px;
+  }
+
+  /* .india-destination__section--places figure {
+    width: 50%;
+  } */
+
+  .india-destination__section--holiday {
+    margin-right: 10px;
+  }
+
+  .india-destination__section--details p {
+    font-size: 12px;
+  }
+
+  .india-destination__section--places figure a span {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px 14px;
+  }
+
+  .india-destination__section--places figure a span:hover {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px 14px;
+  }
+  /* .india-destination__section--places {
+    width:30%;
+  } */
+  .india-destination__section--places figure {
+    /* width: 30%; */
+    margin-bottom: 20px;
+  }
+  .trending-block {
+    display: flex;
+    padding: 10px;
+    margin-left: 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+
+  .india-destination__heading {
+    margin: 10px;
+    padding: 10px 0;
+  }
+
+  .view-tour {
+    display: none;
+  }
+
+  .india-destination__section--places figure {
+    margin-bottom: 2px;
+  }
+
+  .india-destination__section--holiday {
+    width: 49%;
+    margin-right: 1px;
+}
+.india-destination__section--details {
+  padding: 0px 22px 8px 22px;
+}
+
+  .india-destination__section--details p {
+    font-size: 12px;
+  }
+
+  .india-destination__section--places figure a span {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px 14px;
+  }
+
+  .india-destination__section--places figure a span:hover {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px 14px;
+  }
+  .destination__main--heading h2 {
+    font-size: 19px;
+  }
+  .trending-block {
+    display: flex;
+    padding: 10px;
+    margin-left: 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.india-destination__section--places-images {
+  /* display: block; */
+  width: 140px;
+}
+.sample {
+  display: none;
+}
+}
+
